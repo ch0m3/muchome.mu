@@ -637,4 +637,8 @@
 
         setInterval(step, GALLERY_AUTOPLAY_MS);
     });
+    
 })();
+
+ const year = new Date().getFullYear();
+    document.getElementById("current-year").textContent = year;
